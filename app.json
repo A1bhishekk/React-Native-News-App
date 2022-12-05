@@ -1,13 +1,13 @@
 {
   "expo": {
-    "name": "Tech-News-App",
+    "name": "Abhi News",
     "slug": "Tech-News-App",
     "version": "1.0.0",
     "orientation": "portrait",
-    "icon": "./assets/icon.png",
+    "icon": "./assets/icon1.png",
     "userInterfaceStyle": "light",
     "splash": {
-      "image": "./assets/splash.png",
+      "image": "./assets/splash.jpg",
       "resizeMode": "contain",
       "backgroundColor": "#ffffff"
     },
@@ -22,12 +22,18 @@
     },
     "android": {
       "adaptiveIcon": {
-        "foregroundImage": "./assets/adaptive-icon.png",
+        "foregroundImage": "./assets/icon1.png",
         "backgroundColor": "#FFFFFF"
-      }
+      },
+      "package": "com.a_bhishek.TechNewsApp"
     },
     "web": {
-      "favicon": "./assets/favicon.png"
+      "favicon": "./assets/icon1.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "e4e924ad-0170-4b6f-96e5-085b8d16d2bb"
+      }
     }
   }
 }
